@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "895562587141",
+    "project_id": "practica14x10x2022",
+    "storage_bucket": "practica14x10x2022.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895562587141:android:a8f178db4f19b94157106c",
+        "android_client_info": {
+          "package_name": "utn.practica.examen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895562587141-v58pc8k62kjbkkdf7em1sf2qqjgbtu8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKtbFK6Mqw6_R3ttRR2EuHo9nKKSHEKU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895562587141-v58pc8k62kjbkkdf7em1sf2qqjgbtu8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895562587141:android:5d886561d0bf1f3957106c",
+        "android_client_info": {
+          "package_name": "utn.practica.heiner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895562587141-v58pc8k62kjbkkdf7em1sf2qqjgbtu8p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKtbFK6Mqw6_R3ttRR2EuHo9nKKSHEKU4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895562587141-v58pc8k62kjbkkdf7em1sf2qqjgbtu8p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
