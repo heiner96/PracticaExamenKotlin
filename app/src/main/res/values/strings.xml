@@ -25,11 +25,11 @@
     <string name="msg_add_lugar">Agregar Lugar</string>
     <string name="bt_uptate_lugar">Actualizar Lugar</string>
     <string name="msg_lugar_added">Estado Agregado…</string>
-    <string name="msg_delete_lugar">Eliminar Lugar…</string>
+    <string name="msg_delete_lugar">Eliminar Estado…</string>
     <string name="msg_lugar_updated">Lugar Actualizado…</string>
-    <string name="msg_lugar_deleted">Lugar Eliminado…</string>
+    <string name="msg_lugar_deleted">Estado Eliminado…</string>
     <string name="msg_data">Faltan Datos!</string>
-    <string name="msg_seguro_borrado">¿Está seguro de eliminar el lugar :</string>
+    <string name="msg_seguro_borrado">¿Está seguro de eliminar el estado :</string>
     <string name="msg_si">Si</string>
     <string name="msg_no">No</string>
 

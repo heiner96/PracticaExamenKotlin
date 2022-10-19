@@ -15,7 +15,7 @@
             app:destination="@id/addEstadoFragment" />
         <action
             android:id="@+id/action_nav_home_to_updateEstadoFragment"
-            app:destination="@id/updateEstadoFragment" />
+            app:destination="@id/UpdateEstadoFragment" />
     </fragment>
 
     <fragment
@@ -39,8 +39,8 @@
             app:destination="@id/nav_home" />
     </fragment>
     <fragment
-        android:id="@+id/updateEstadoFragment"
-        android:name="utn.practica.heiner.ui.home.updateEstadoFragment"
+        android:id="@+id/UpdateEstadoFragment"
+        android:name="utn.practica.heiner.ui.home.UpdateEstadoFragment"
         android:label="fragment_update_estado"
         tools:layout="@layout/fragment_update_estado" >
         <action
