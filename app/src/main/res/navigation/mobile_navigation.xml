@@ -31,7 +31,7 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/addEstadoFragment"
-        android:name="utn.practica.heiner.AddEstadoFragment"
+        android:name="utn.practica.heiner.ui.home.AddEstadoFragment"
         android:label="fragment_add_estado"
         tools:layout="@layout/fragment_add_estado" >
         <action
@@ -40,7 +40,7 @@
     </fragment>
     <fragment
         android:id="@+id/updateEstadoFragment"
-        android:name="utn.practica.heiner.updateEstadoFragment"
+        android:name="utn.practica.heiner.ui.home.updateEstadoFragment"
         android:label="fragment_update_estado"
         tools:layout="@layout/fragment_update_estado" >
         <action

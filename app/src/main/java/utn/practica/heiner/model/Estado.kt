@@ -18,9 +18,9 @@ data class Estado
     @ColumnInfo(name ="capital")
     val capital: String?,
     @ColumnInfo(name ="nPoblacion")
-    val nPoblacion: String?,
+    val nPoblacion: Int?,
     @ColumnInfo(name ="continente")
     val continente: String?,
     @ColumnInfo(name ="nDepartamentos")
-    val latitud: Double?,
+    val nDepartamentos: Int?,
 ): Parcelable

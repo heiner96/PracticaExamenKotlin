@@ -5,7 +5,7 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import utn.practica.heiner.model.Estado
 
-@Database(entities = [Estado::class], version = 1, exportSchema = false)
+@Database(entities = [Estado::class], version = 2, exportSchema = false)
 abstract class PracticaDataBase  : RoomDatabase()
 {
     abstract fun estadoDao() : EstadoDao

@@ -4,7 +4,6 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.navigation.findNavController
 import androidx.recyclerview.widget.RecyclerView
-import utn.practica.heiner.AddEstadoFragmentDirections
 import utn.practica.heiner.databinding.EstadoFilaBinding
 import utn.practica.heiner.model.Estado
 import utn.practica.heiner.ui.home.HomeFragmentDirections
@@ -19,7 +18,7 @@ class EstadoAdapter : RecyclerView.Adapter<EstadoAdapter.EstadoViewHolder>()
         fun bind(estado: Estado){
             itemBinding.tvNombre.text = estado.nombre
             itemBinding.tvCorreoLugarFila.text = estado.capital
-            itemBinding.tvTelefonoLugar.text = estado.nPoblacion
+            itemBinding.tvTelefonoLugar.text = estado.nPoblacion.toString()
             itemBinding.vistaFila.setOnClickListener {
                 val accion = HomeFragmentDirections
                     .actionNavHomeToUpdateEstadoFragment(estado)
